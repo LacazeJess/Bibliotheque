@@ -158,6 +158,16 @@ legend {
   border: 0;
 }
 
+.formulaire{
+   width: -moz-min-content;
+}
+.abo{
+   width: -moz-min-content;
+}
+.entree{
+   width: -moz-min-content;
+}
+
 button,
 input,
 select,
@@ -171,6 +181,7 @@ button,
 input {
   line-height: normal;
 }
+
 
 button,
 select {
@@ -4940,6 +4951,18 @@ a.list-group-item.active > .badge,
 .jumbotron h1 {
   line-height: 1;
   color: inherit;
+  width:60%;
+  display:inline;
+  vertical-align:middle;
+}
+img {
+    float: right;
+    position: relative;
+    bottom: 33px;
+}
+
+.lead{
+    margin-top: 10px;
 }
 
 .jumbotron p {

@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = " Ajout d'un emprunt";
+}
+<h2>@ViewBag.Title</h2>
+
+<div class="entree">
+    <form>
+        <p>
+            Livres :
+            <select name="liste" id="livres">
+                <optgroup label="Action">
+                    <option value="livre1">Livre 1</option>
+                    <option value="Livre2">Livre 2</option>
+                </optgroup>
+                <optgroup label="Fantastique">
+                    <option value="Livre3">Livre 3</option>
+                </optgroup>
+            </select>
+        </p><br />
+        <p>
+            Abonnés :
+            <select name="liste2" id="abonne">
+                <optgroup label="A">
+                    <option value="aa">Aaaa</option>
+                    <option value="af">Afior</option>
+                </optgroup>
+                <optgroup label="B">
+                    <option value="ba">Banana</option>
+                </optgroup>
+            </select>
+        </p><br />
+
+        <p>
+            <input type="radio" name="choix2" value="Entree" checked /> <label for="Entree">Entrée</label><br />
+            <input type="radio" name="choix2" value="Sortie" /> <label for="Sortie">Sortie</label>
+        </p><br />
+        <br />
+        <input type="submit" value="Enregistrer" />
+    </form>
+</div>

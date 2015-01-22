@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = " Ajout d'un auteur ou d'un abonné";
+}
+<h2>@ViewBag.Title</h2>
+
+<div class="abo">
+    <form>
+        <p>Nom : <input type="text" required /></p><br />
+        <p>Prénom :   <input type="text" required /></p><br />
+        <p>Date de naissance : <input type="date" required /></p><br />
+        <p>Mail: <input type="email" required /> </p>
+        <p>
+            <input type="radio" name="choix" value="Auteur" checked /> <label for="Auteur">Auteur</label><br />
+            <input type="radio" name="choix" value="Abonne" /> <label for="Abonne">Abonné</label>
+        </p><br />
+        <br />
+        <input type="submit" value="Enregistrer" />
+
+    </form>
+</div>

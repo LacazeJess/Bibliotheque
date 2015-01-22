@@ -13,17 +13,13 @@ namespace WebApplication_Lacaze_Pintault_.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Auteurs_Abonnes()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Emprunts()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }

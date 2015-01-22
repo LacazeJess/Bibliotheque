@@ -3,29 +3,58 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+    <h1>Bibliothèque</h1> <img src="http://www.sainte-veronique.be/primaire/LOGO-LIVRE.jpg" />
+    <p class="lead"> Ce site sert pour la gestion d'une bibliothèque</p>
+
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+
+        GRAPHIQUE
+
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+
+        LISTES LIVRES
+
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <div class="formulaire">
+            <form>
+                <p>
+                    titre: <input type="text" required />
+                </p>
+                <p>
+                    auteur: <select required>
+                        <option value="auteur1">Auteur 1</option>
+                        <option value="auteur2">Auteur 2</option>
+                    </select>
+                </p>
+                <p>
+                    date de publication: <input type="date" required />
+                </p>
+                <p>
+                    genre : <select name="genre" id="genres">
+                        <optgroup label="A">
+                            <option value="action">Action</option>
+                        </optgroup>
+                        <optgroup label="F">
+                            <option value="fantastique">Fantastique</option>
+                        </optgroup>
+                        <optgroup label="H">
+                            <option value="horeur">Horeur</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    editeur : <input type="text" required />
+                </p>
+                <p> <input type="submit" value="Enregistrer" /></p>
+
+            </form>
+        </div>
+
+        @* <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
     </div>
 </div>
